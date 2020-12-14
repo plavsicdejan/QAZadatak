@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.113" tests="42" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\zeblic\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\WinSCP\;C:\Program Files\nodejs\;E:\React\Fuse-React-v2.2.5\Fuse-React-v2.2.5-demo\bin\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk-11.0.2\bin;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\zeblic\AppData\Local\Microsoft\WindowsApps;C:\Users\zeblic\AppData\Roaming\npm;C:\Users\zeblic\AppData\Local\Yarn\bin;C:\Users\zeblic\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\zeblic"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="zeblic"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DsuiteFile=testng.xml"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="suiteFile" value="testng.xml"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="aRegularCall" classname="rs.hooloovoo.test.CreateUserTest" time="0.009"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0.038"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0.141"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0.006">
+    <failure message="Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Bad response code:  expected:<201> but was:<400>
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+]]></failure>
+  </testcase>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0.022"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0"/>
+  <testcase name="aRegularCallSpecific" classname="rs.hooloovoo.test.CreateUserTest" time="0"/>
+  <testcase name="aRegularCall" classname="rs.hooloovoo.test.GetUserTest" time="0"/>
+  <testcase name="alreadyUsedUsername" classname="rs.hooloovoo.test.CreateUserTest" time="0.005"/>
+  <testcase name="usernameCheck" classname="rs.hooloovoo.test.CreateUserTest" time="0.037"/>
+  <testcase name="usernameCheck" classname="rs.hooloovoo.test.CreateUserTest" time="0.032"/>
+  <testcase name="usernameCheck" classname="rs.hooloovoo.test.CreateUserTest" time="0.014"/>
+  <testcase name="usernameCheck" classname="rs.hooloovoo.test.CreateUserTest" time="0.003"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.CreateAuditTest" time="0.065"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.CreateAuditTest" time="0.006"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.CreateAuditTest" time="0.002"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.CreateAuditTest" time="0.002"/>
+  <testcase name="aRegularCall" classname="rs.hooloovoo.test.GetAuditTest" time="0.065"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetUserTest" time="0.067"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetUserTest" time="0"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetUserTest" time="0.014"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.GetAuditTest" time="0.014"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.GetAuditTest" time="0.014"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.GetAuditTest" time="0"/>
+  <testcase name="aRegularCallAllActions" classname="rs.hooloovoo.test.GetAuditTest" time="0.029"/>
+  <testcase name="nonExitsingUser" classname="rs.hooloovoo.test.GetUserTest" time="0"/>
+  <testcase name="usernameSpec" classname="rs.hooloovoo.test.GetUserTest" time="0.004"/>
+  <testcase name="usernameToLowcase" classname="rs.hooloovoo.test.GetUserTest" time="0"/>
+  <testcase name="usernameToUPcase" classname="rs.hooloovoo.test.GetUserTest" time="0.004"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetAuditTest" time="0"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetAuditTest" time="0.059"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.GetAuditTest" time="0.008"/>
+  <testcase name="aRegularCall" classname="rs.hooloovoo.test.LoginTest" time="0"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.LoginTest" time="0.003"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.LoginTest" time="0.005"/>
+  <testcase name="allActionsOneUser" classname="rs.hooloovoo.test.CreateAuditTest" time="0.02"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.CreateAuditTest" time="0.001"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.CreateAuditTest" time="0.001"/>
+  <testcase name="allMethods" classname="rs.hooloovoo.test.CreateAuditTest" time="0.001"/>
+  <testcase name="sameActionsOneUser" classname="rs.hooloovoo.test.CreateAuditTest" time="0.006"/>
+</testsuite>

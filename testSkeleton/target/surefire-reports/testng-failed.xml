@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [testng]" verbose="0">
+  <test parallel="classes" name="simpleTest(failed)">
+    <classes>
+      <class name="rs.hooloovoo.test.LoginTest">
+        <methods>
+          <include name="after"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- rs.hooloovoo.test.LoginTest -->
+      <class name="rs.hooloovoo.test.GetAuditTest">
+        <methods>
+          <include name="after"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- rs.hooloovoo.test.GetAuditTest -->
+      <class name="rs.hooloovoo.test.CreateUserTest">
+        <methods>
+          <include name="aRegularCallSpecific" invocation-numbers="3"/>
+          <include name="init"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- rs.hooloovoo.test.CreateUserTest -->
+      <class name="rs.hooloovoo.test.GetUserTest">
+        <methods>
+          <include name="init"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- rs.hooloovoo.test.GetUserTest -->
+      <class name="rs.hooloovoo.test.CreateAuditTest">
+        <methods>
+          <include name="after"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- rs.hooloovoo.test.CreateAuditTest -->
+    </classes>
+  </test> <!-- simpleTest(failed) -->
+</suite> <!-- Failed suite [testng] -->

@@ -1,0 +1,17 @@
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\entities\AuditLogEntry.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\Init.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\TestConfig.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\configuration\DbConfiguration.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\repository\UserRepository.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\configuration\EnvironmentConfig.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\repository\AuditLogRepository.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\http\HTTPResponse.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\map\Mapper.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\http\HTTPMethod.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\ServiceMethod.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\JDBC_Utils.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\resources\http\HTTPRequest.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\model\GetAudit.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\entities\User.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\model\CreatedAudit.java
+C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\src\main\java\rs\hooloovoo\test\model\CreatedUser.java

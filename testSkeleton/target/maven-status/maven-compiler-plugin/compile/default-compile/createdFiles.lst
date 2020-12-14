@@ -1,0 +1,15 @@
+rs\hooloovoo\test\resources\Init.class
+rs\hooloovoo\test\resources\map\Mapper.class
+rs\hooloovoo\test\entities\User.class
+rs\hooloovoo\test\repository\AuditLogRepository.class
+rs\hooloovoo\test\resources\http\HTTPMethod.class
+rs\hooloovoo\test\resources\http\HTTPResponse.class
+rs\hooloovoo\test\TestConfig.class
+rs\hooloovoo\test\resources\http\HTTPRequest$HttpDeleteWithBody.class
+rs\hooloovoo\test\entities\AuditLogEntry.class
+rs\hooloovoo\test\configuration\DbConfiguration.class
+rs\hooloovoo\test\configuration\EnvironmentConfig.class
+rs\hooloovoo\test\resources\ServiceMethod.class
+rs\hooloovoo\test\repository\UserRepository.class
+rs\hooloovoo\test\model\CreatedUser.class
+rs\hooloovoo\test\resources\http\HTTPRequest.class

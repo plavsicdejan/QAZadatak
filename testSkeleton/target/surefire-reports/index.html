@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-testng" class="navigator-link">
+              <span class="suite-name border-failed">testng</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-testng" class="navigator-link ">
+                    <span>C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-testng" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-testng" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-testng" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-testng" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-testng" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-testng" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 1 failed,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testng" class="hide-methods failed suite-testng"> (hide)</a> <!-- hide-methods failed suite-testng -->
+                      <a href="#" panel-name="suite-testng" class="show-methods failed suite-testng"> (show)</a> <!-- show-methods failed suite-testng -->
+                    </span>
+                    <div class="method-list-content failed suite-testng">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(VELIKA_SLOVA, 201)">aRegularCallSpecific(VELIKA_SLOVA, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testng -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testng" class="hide-methods passed suite-testng"> (hide)</a> <!-- hide-methods passed suite-testng -->
+                      <a href="#" panel-name="suite-testng" class="show-methods passed suite-testng"> (show)</a> <!-- show-methods passed suite-testng -->
+                    </span>
+                    <div class="method-list-content passed suite-testng">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCall">aRegularCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.LoginTest" class="method navigator-link" hash-for-method="aRegularCall">aRegularCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="aRegularCall">aRegularCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="aRegularCall">aRegularCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(DELETE)">aRegularCallAllActions(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(LOGIN)">aRegularCallAllActions(LOGIN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(SAVE)">aRegularCallAllActions(SAVE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(LOGIN)">aRegularCallAllActions(LOGIN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(SAVE)">aRegularCallAllActions(SAVE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(UPDATE)">aRegularCallAllActions(UPDATE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(UPDATE)">aRegularCallAllActions(UPDATE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="aRegularCallAllActions(DELETE)">aRegularCallAllActions(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(mix_SLoVA, 201)">aRegularCallSpecific(mix_SLoVA, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(mix_#@!#%$_555-333, 201)">aRegularCallSpecific(mix_#@!#%$_555-333, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(123456, 201)">aRegularCallSpecific(123456, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(*?*?*?*?, 201)">aRegularCallSpecific(*?*?*?*?, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(mala_slova, 201)">aRegularCallSpecific(mala_slova, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(8686iF, 201)">aRegularCallSpecific(8686iF, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="aRegularCallSpecific(!@#$%^&amp;, 201)">aRegularCallSpecific(!@#$%^&, 201)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="allActionsOneUser">allActionsOneUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="allMethods(POST)">allMethods(POST)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="allMethods(DELETE)">allMethods(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="allMethods(POST)">allMethods(POST)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="allMethods(POST)">allMethods(POST)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.LoginTest" class="method navigator-link" hash-for-method="allMethods(PUT)">allMethods(PUT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.LoginTest" class="method navigator-link" hash-for-method="allMethods(DELETE)">allMethods(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="allMethods(DELETE)">allMethods(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="allMethods(PUT)">allMethods(PUT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="allMethods(DELETE)">allMethods(DELETE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetAuditTest" class="method navigator-link" hash-for-method="allMethods(PUT)">allMethods(PUT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="allMethods(GET)">allMethods(GET)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="alreadyUsedUsername">alreadyUsedUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="nonExitsingUser">nonExitsingUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateAuditTest" class="method navigator-link" hash-for-method="sameActionsOneUser">sameActionsOneUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="usernameCheck(, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">usernameCheck(, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="usernameCheck(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">usernameCheck(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="usernameCheck(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 charac...)">usernameCheck(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 charac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.CreateUserTest" class="method navigator-link" hash-for-method="usernameCheck(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">usernameCheck(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="usernameSpec(!@#$$$**--)">usernameSpec(!@#$$$**--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="usernameToLowcase">usernameToLowcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-testng" title="rs.hooloovoo.test.GetUserTest" class="method navigator-link" hash-for-method="usernameToUPcase">usernameToUPcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testng -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testng" class="panel testng">
+          <div class="suite-testng-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">rs.hooloovoo.test.CreateUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(VELIKA_SLOVA, 201)">
+                  </a> <!-- aRegularCallSpecific(VELIKA_SLOVA, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(VELIKA_SLOVA, 201)</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 10 stack frames<br/> java.lang.AssertionError: Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+"</b><br>org.junit.Assert.fail(Assert.java:88)<br>org.junit.Assert.failNotEquals(Assert.java:834)<br>org.junit.Assert.assertEquals(Assert.java:645)<br>rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>java.base/java.lang.Thread.run(Thread.java:834)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-failed -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rs.hooloovoo.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCall">
+                  </a> <!-- aRegularCall -->
+                  <span class="method-name">aRegularCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(PUT)">
+                  </a> <!-- allMethods(PUT) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(PUT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(DELETE)">
+                  </a> <!-- allMethods(DELETE) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-passed -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rs.hooloovoo.test.GetAuditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCall">
+                  </a> <!-- aRegularCall -->
+                  <span class="method-name">aRegularCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(SAVE)">
+                  </a> <!-- aRegularCallAllActions(SAVE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(SAVE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(LOGIN)">
+                  </a> <!-- aRegularCallAllActions(LOGIN) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(LOGIN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(UPDATE)">
+                  </a> <!-- aRegularCallAllActions(UPDATE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(UPDATE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(DELETE)">
+                  </a> <!-- aRegularCallAllActions(DELETE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(POST)">
+                  </a> <!-- allMethods(POST) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(POST)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(DELETE)">
+                  </a> <!-- allMethods(DELETE) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(PUT)">
+                  </a> <!-- allMethods(PUT) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(PUT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-passed -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rs.hooloovoo.test.CreateUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCall">
+                  </a> <!-- aRegularCall -->
+                  <span class="method-name">aRegularCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(mix_SLoVA, 201)">
+                  </a> <!-- aRegularCallSpecific(mix_SLoVA, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(mix_SLoVA, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(mix_#@!#%$_555-333, 201)">
+                  </a> <!-- aRegularCallSpecific(mix_#@!#%$_555-333, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(mix_#@!#%$_555-333, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(123456, 201)">
+                  </a> <!-- aRegularCallSpecific(123456, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(123456, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(*?*?*?*?, 201)">
+                  </a> <!-- aRegularCallSpecific(*?*?*?*?, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(*?*?*?*?, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(mala_slova, 201)">
+                  </a> <!-- aRegularCallSpecific(mala_slova, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(mala_slova, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(8686iF, 201)">
+                  </a> <!-- aRegularCallSpecific(8686iF, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(8686iF, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallSpecific(!@#$%^&amp;, 201)">
+                  </a> <!-- aRegularCallSpecific(!@#$%^&, 201) -->
+                  <span class="method-name">aRegularCallSpecific</span>
+                  <span class="parameters">(!@#$%^&, 201)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadyUsedUsername">
+                  </a> <!-- alreadyUsedUsername -->
+                  <span class="method-name">alreadyUsedUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameCheck(, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">
+                  </a> <!-- usernameCheck(, 400, Username must not be longer that 50 characters or shorter than 6 characters.) -->
+                  <span class="method-name">usernameCheck</span>
+                  <span class="parameters">(, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameCheck(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">
+                  </a> <!-- usernameCheck(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.) -->
+                  <span class="method-name">usernameCheck</span>
+                  <span class="parameters">(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameCheck(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 charac...)">
+                  </a> <!-- usernameCheck(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 charac...) -->
+                  <span class="method-name">usernameCheck</span>
+                  <span class="parameters">(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameCheck(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.)">
+                  </a> <!-- usernameCheck(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.) -->
+                  <span class="method-name">usernameCheck</span>
+                  <span class="parameters">(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-passed -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rs.hooloovoo.test.GetUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCall">
+                  </a> <!-- aRegularCall -->
+                  <span class="method-name">aRegularCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(POST)">
+                  </a> <!-- allMethods(POST) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(POST)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(DELETE)">
+                  </a> <!-- allMethods(DELETE) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(PUT)">
+                  </a> <!-- allMethods(PUT) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(PUT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonExitsingUser">
+                  </a> <!-- nonExitsingUser -->
+                  <span class="method-name">nonExitsingUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameSpec(!@#$$$**--)">
+                  </a> <!-- usernameSpec(!@#$$$**-) -->
+                  <span class="method-name">usernameSpec</span>
+                  <span class="parameters">(!@#$$$**--)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameToLowcase">
+                  </a> <!-- usernameToLowcase -->
+                  <span class="method-name">usernameToLowcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameToUPcase">
+                  </a> <!-- usernameToUPcase -->
+                  <span class="method-name">usernameToUPcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-passed -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rs.hooloovoo.test.CreateAuditTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(DELETE)">
+                  </a> <!-- aRegularCallAllActions(DELETE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(LOGIN)">
+                  </a> <!-- aRegularCallAllActions(LOGIN) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(LOGIN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(SAVE)">
+                  </a> <!-- aRegularCallAllActions(SAVE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(SAVE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aRegularCallAllActions(UPDATE)">
+                  </a> <!-- aRegularCallAllActions(UPDATE) -->
+                  <span class="method-name">aRegularCallAllActions</span>
+                  <span class="parameters">(UPDATE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allActionsOneUser">
+                  </a> <!-- allActionsOneUser -->
+                  <span class="method-name">allActionsOneUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(POST)">
+                  </a> <!-- allMethods(POST) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(POST)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(DELETE)">
+                  </a> <!-- allMethods(DELETE) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(DELETE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allMethods(GET)">
+                  </a> <!-- allMethods(GET) -->
+                  <span class="method-name">allMethods</span>
+                  <span class="parameters">(GET)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sameActionsOneUser">
+                  </a> <!-- sameActionsOneUser -->
+                  <span class="method-name">sameActionsOneUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-passed -->
+        </div> <!-- panel testng -->
+        <div panel-name="test-xml-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\zeblic\IdeaProjects\HooloovooQAZadatak\testSkeleton\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;testng&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;simpleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;rs.hooloovoo.test.CreateAuditTest&quot;/&gt;
+      &lt;class name=&quot;rs.hooloovoo.test.CreateUserTest&quot;/&gt;
+      &lt;class name=&quot;rs.hooloovoo.test.GetAuditTest&quot;/&gt;
+      &lt;class name=&quot;rs.hooloovoo.test.GetUserTest&quot;/&gt;
+      &lt;class name=&quot;rs.hooloovoo.test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- simpleTest --&gt;
+&lt;/suite&gt; &lt;!-- testng --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">simpleTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testng');
+function tableData_testng() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'aRegularCall')
+data.setCell(0, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(0, 3, 1044);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'aRegularCallAllActions')
+data.setCell(1, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(1, 3, 382);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'aRegularCall')
+data.setCell(2, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(2, 3, 381);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'allMethods')
+data.setCell(3, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(3, 3, 233);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'allActionsOneUser')
+data.setCell(4, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(4, 3, 119);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sameActionsOneUser')
+data.setCell(5, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(5, 3, 119);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'aRegularCall')
+data.setCell(6, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(6, 3, 119);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'aRegularCallAllActions')
+data.setCell(7, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(7, 3, 53);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'aRegularCallAllActions')
+data.setCell(8, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(8, 3, 49);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'aRegularCallSpecific')
+data.setCell(9, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(9, 3, 45);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'aRegularCallAllActions')
+data.setCell(10, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(10, 3, 41);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'aRegularCallAllActions')
+data.setCell(11, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(11, 3, 38);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'aRegularCallAllActions')
+data.setCell(12, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(12, 3, 38);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'aRegularCallSpecific')
+data.setCell(13, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(13, 3, 35);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'usernameToUPcase')
+data.setCell(14, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(14, 3, 33);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'aRegularCallSpecific')
+data.setCell(15, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(15, 3, 32);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'aRegularCallAllActions')
+data.setCell(16, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(16, 3, 30);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'aRegularCallAllActions')
+data.setCell(17, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(17, 3, 25);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'allMethods')
+data.setCell(18, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(18, 3, 24);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'allMethods')
+data.setCell(19, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(19, 3, 21);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'usernameSpec')
+data.setCell(20, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(20, 3, 20);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'alreadyUsedUsername')
+data.setCell(21, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(21, 3, 20);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'nonExitsingUser')
+data.setCell(22, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(22, 3, 17);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'allMethods')
+data.setCell(23, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(23, 3, 17);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'aRegularCallSpecific')
+data.setCell(24, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(24, 3, 15);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'aRegularCallSpecific')
+data.setCell(25, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(25, 3, 15);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'usernameCheck')
+data.setCell(26, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(26, 3, 14);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'allMethods')
+data.setCell(27, 2, 'rs.hooloovoo.test.GetAuditTest')
+data.setCell(27, 3, 13);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'aRegularCallSpecific')
+data.setCell(28, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(28, 3, 12);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'allMethods')
+data.setCell(29, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(29, 3, 12);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'aRegularCallSpecific')
+data.setCell(30, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(30, 3, 11);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'usernameToLowcase')
+data.setCell(31, 2, 'rs.hooloovoo.test.GetUserTest')
+data.setCell(31, 3, 11);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'aRegularCallSpecific')
+data.setCell(32, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(32, 3, 11);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'allMethods')
+data.setCell(33, 2, 'rs.hooloovoo.test.LoginTest')
+data.setCell(33, 3, 10);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'usernameCheck')
+data.setCell(34, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(34, 3, 10);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'allMethods')
+data.setCell(35, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(35, 3, 9);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'allMethods')
+data.setCell(36, 2, 'rs.hooloovoo.test.LoginTest')
+data.setCell(36, 3, 9);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'allMethods')
+data.setCell(37, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(37, 3, 9);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'allMethods')
+data.setCell(38, 2, 'rs.hooloovoo.test.CreateAuditTest')
+data.setCell(38, 3, 9);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'usernameCheck')
+data.setCell(39, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(39, 3, 9);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'aRegularCall')
+data.setCell(40, 2, 'rs.hooloovoo.test.LoginTest')
+data.setCell(40, 3, 8);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'usernameCheck')
+data.setCell(41, 2, 'rs.hooloovoo.test.CreateUserTest')
+data.setCell(41, 3, 8);
+window.suiteTableData['testng']= { tableData: data, tableDiv: 'times-div-testng'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-testng">
+              </div> <!-- times-div-testng -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">11 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rs.hooloovoo.test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">badPassword</span>
+                <br/>
+                <span class="ignored-method-name">swappedUsernameAndPass</span>
+                <br/>
+                <span class="ignored-method-name">badUsername</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rs.hooloovoo.test.GetAuditTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">unknownUsernameQueryParam</span>
+                <br/>
+                <span class="ignored-method-name">unknownUsernamePath</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rs.hooloovoo.test.CreateUserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">passwordCheck</span>
+                <br/>
+                <span class="ignored-method-name">usernameMissing</span>
+                <br/>
+                <span class="ignored-method-name">allMethods</span>
+                <br/>
+                <span class="ignored-method-name">passMissing</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">rs.hooloovoo.test.CreateAuditTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">badAuditActions</span>
+                <br/>
+                <span class="ignored-method-name">unknownUsername</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCall</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(SAVE)</span>
+                <span class="method-start">1097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCall</span>
+                <span class="method-start">1097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCall</span>
+                <span class="method-start">1098 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(8686iF, 201)</span>
+                <span class="method-start">1109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(!@#$%^&, 201)</span>
+                <span class="method-start">1141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(123456, 201)</span>
+                <span class="method-start">1156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">aRegularCallSpecific(VELIKA_SLOVA, 201)</span>
+                <span class="method-start">1202 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1220 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(mala_slova, 201)</span>
+                <span class="method-start">1224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(mix_SLoVA, 201)</span>
+                <span class="method-start">1239 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">allMethods(POST)</span>
+                <span class="method-start">1246 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(mix_#@!#%$_555-333, 201)</span>
+                <span class="method-start">1286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallSpecific(*?*?*?*?, 201)</span>
+                <span class="method-start">1298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alreadyUsedUsername</span>
+                <span class="method-start">1309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameCheck(b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                <span class="method-start">1330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameCheck(FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 charac...)</span>
+                <span class="method-start">1343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameCheck(, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                <span class="method-start">1358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameCheck(!@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.)</span>
+                <span class="method-start">1366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">1375 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1480 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1480 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(PUT)</span>
+                <span class="method-start">1501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(SAVE)</span>
+                <span class="method-start">1508 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(DELETE)</span>
+                <span class="method-start">1532 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1547 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nonExitsingUser</span>
+                <span class="method-start">1571 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(LOGIN)</span>
+                <span class="method-start">1579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1589 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(DELETE)</span>
+                <span class="method-start">1632 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usernameSpec(!@#$$$**--)</span>
+                <span class="method-start">1638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">usernameToLowcase</span>
+                <span class="method-start">1673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1685 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1691 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">usernameToUPcase</span>
+                <span class="method-start">1708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(UPDATE)</span>
+                <span class="method-start">1722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">1744 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(PUT)</span>
+                <span class="method-start">1777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(LOGIN)</span>
+                <span class="method-start">1803 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">allMethods(POST)</span>
+                <span class="method-start">1813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(DELETE)</span>
+                <span class="method-start">1844 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1857 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.GetAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">1866 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(DELETE)</span>
+                <span class="method-start">1872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aRegularCallAllActions(UPDATE)</span>
+                <span class="method-start">1911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1950 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">allActionsOneUser</span>
+                <span class="method-start">1967 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aRegularCall</span>
+                <span class="method-start">1973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">1982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(PUT)</span>
+                <span class="method-start">2013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">2023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(DELETE)</span>
+                <span class="method-start">2033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">2042 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">rs.hooloovoo.test.CreateAuditTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">2087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(GET)</span>
+                <span class="method-start">2098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">2107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(POST)</span>
+                <span class="method-start">2120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">2129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allMethods(DELETE)</span>
+                <span class="method-start">2139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">2149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sameActionsOneUser</span>
+                <span class="method-start">2161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">2280 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

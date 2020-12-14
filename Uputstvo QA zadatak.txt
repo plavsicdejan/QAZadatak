@@ -1,0 +1,24 @@
+U prilogu je Java aplikacija sa REST API-jem koju treba testirati i skelet projekta u kome bi trebalo postaviti testove.
+
+Za pokretanje aplikacije potrebna je minimalno Java 11. Pokreće se komandom java -jar apitest-1.0.0.jar
+Aplikacija radi na portu 9762 i API je dostupan na adresi http://localhost:9762/audit.
+
+Swagger API dokumentacija je dostupna na http://localhost:9762/audit/swagger-ui.html
+
+Aplikacija po pokretanju koristi memorijsku (H2) bazu podataka, sa konzolom kojoj možemo pristupiti putem web http://localhost:9762/audit/h2-console/, koristeći parametre:
+JDBC URL: jdbc:h2:mem:userdb?IFEXISTS=false
+Username: sa
+Password: password
+
+Aplikacija ima funkcionalnosti:
+
+ 1) registracija korisnika - korisničko ime bi trebalo da bude dužine između 6 i 50 karaktera, lozinka mora da sadrži mešavinu,
+  cifara, malih i velikih slova i specijalnih karaktera
+ 2) provera logovanja na sistem - da li su korisničko ime i lozinka važeći
+ 3) provere postojanja korisnika - da li korisnik sa datim korisničkim imenom postoji
+ 4) beleženja akcija korisnika - korisnik sa datim korisničkim imenom izvršio jednu od akcija: LOGIN, SAVE, UPDATE, DELETE
+ 5) pregled akcija korisnika po korisničkom imenu
+
+Pretpostaviti da aplikacija radi u produkcionom okruženju, sa visokim stepenom konkurentnosti.
+
+Napisati testove za ovu aplikaciju i dokumentovati rezultate.

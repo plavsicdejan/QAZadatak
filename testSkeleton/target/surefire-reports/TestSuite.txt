@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.113 sec <<< FAILURE! - in TestSuite
+aRegularCallSpecific(rs.hooloovoo.test.CreateUserTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Bad response code:  expected:<201> but was:<400>
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng" verbose="10" parallel="classes" thread-count="3">
+    <test name="simpleTest">
+        <classes>
+            <class name="rs.hooloovoo.test.CreateAuditTest" ></class>
+            <class name="rs.hooloovoo.test.CreateUserTest" ></class>
+            <class name="rs.hooloovoo.test.GetAuditTest" ></class>
+            <class name="rs.hooloovoo.test.LoginTest" ></class>
+            <class name="rs.hooloovoo.test.GetUserTest" ></class>
+        </classes>
+    </test>
+</suite>

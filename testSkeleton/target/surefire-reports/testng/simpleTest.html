@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  simpleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>simpleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 12 21:04:57 CET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2333 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: VELIKA_SLOVA, 201</td>
+<td><div><pre>java.lang.AssertionError: Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1220760227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1220760227'><pre>java.lang.AssertionError: Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCall()'><b>aRegularCall</b><br>Test class: rs.hooloovoo.test.CreateUserTest</td>
+<td></td>
+<td>1</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.aRegularCall()'><b>aRegularCall</b><br>Test class: rs.hooloovoo.test.GetUserTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.aRegularCall()'><b>aRegularCall</b><br>Test class: rs.hooloovoo.test.GetAuditTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.LoginTest.aRegularCall()'><b>aRegularCall</b><br>Test class: rs.hooloovoo.test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.LoginTest@59474f18</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: SAVE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: SAVE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: LOGIN</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: UPDATE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: LOGIN</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.aRegularCallAllActions()'><b>aRegularCallAllActions</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: UPDATE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: 8686iF, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: !@#$%^&, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: 123456, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: mala_slova, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: mix_SLoVA, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: mix_#@!#%$_555-333, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific()'><b>aRegularCallSpecific</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: *?*?*?*?, 201</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.allActionsOneUser()'><b>allActionsOneUser</b><br>Test class: rs.hooloovoo.test.CreateAuditTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetUserTest<br>Parameters: POST</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetUserTest<br>Parameters: PUT</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetUserTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: PUT</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: POST</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.GetAuditTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetAuditTest@36fc695d</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.LoginTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.LoginTest<br>Parameters: PUT</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.LoginTest@59474f18</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.LoginTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.LoginTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.LoginTest@59474f18</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: GET</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: POST</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.allMethods()'><b>allMethods</b><br>Test class: rs.hooloovoo.test.CreateAuditTest<br>Parameters: DELETE</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.alreadyUsedUsername()'><b>alreadyUsedUsername</b><br>Test class: rs.hooloovoo.test.CreateUserTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.nonExitsingUser()'><b>nonExitsingUser</b><br>Test class: rs.hooloovoo.test.GetUserTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateAuditTest.sameActionsOneUser()'><b>sameActionsOneUser</b><br>Test class: rs.hooloovoo.test.CreateAuditTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateAuditTest@4afcd809</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.usernameCheck()'><b>usernameCheck</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: b326, 400, Username must not be longer that 50 characters or shorter than 6 characters.</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.usernameCheck()'><b>usernameCheck</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4, 400, Username must not be longer that 50 characters or shorter than 6 characters.</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.usernameCheck()'><b>usernameCheck</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: , 400, Username must not be longer that 50 characters or shorter than 6 characters.</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.CreateUserTest.usernameCheck()'><b>usernameCheck</b><br>Test class: rs.hooloovoo.test.CreateUserTest<br>Parameters: !@#$, 400, Username must not be longer that 50 characters or shorter than 6 characters.</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.CreateUserTest@3754a4bf</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.usernameSpec()'><b>usernameSpec</b><br>Test class: rs.hooloovoo.test.GetUserTest<br>Parameters: !@#$$$**--</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.usernameToLowcase()'><b>usernameToLowcase</b><br>Test class: rs.hooloovoo.test.GetUserTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+<tr>
+<td title='rs.hooloovoo.test.GetUserTest.usernameToUPcase()'><b>usernameToUPcase</b><br>Test class: rs.hooloovoo.test.GetUserTest</td>
+<td></td>
+<td>0</td>
+<td>rs.hooloovoo.test.GetUserTest@62379589</td></tr>
+</table><p>
+</body>
+</html>

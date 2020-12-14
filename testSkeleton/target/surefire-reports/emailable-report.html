@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">simpleTest</td><td class="numi">42</td><td class="numi">41</td><td class="numi">0</td><td class="numi_attn">8</td><td class="numi">2.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">simpleTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="8">rs.hooloovoo.test.CreateUserTest</td><td><a href="#m1"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m2"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m3"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m4"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m5"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m6"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m7"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m8"><b>aRegularCallSpecific</b>  </a></td><td class="numi">1</td><td>1607803498599</td><td class="numi">11</td></tr>
+<tr><th colspan="4">simpleTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">rs.hooloovoo.test.CreateUserTest</td><td><a href="#m9"><b>aRegularCall</b>  </a></td><td class="numi">1</td><td>1607803497461</td><td class="numi">1044</td></tr>
+<tr class="passedeven"><td rowspan="1">rs.hooloovoo.test.CreateAuditTest</td><td><a href="#m10"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498494</td><td class="numi">852</td></tr>
+<tr class="passedodd"><td rowspan="1">rs.hooloovoo.test.GetUserTest</td><td><a href="#m11"><b>aRegularCall</b>  </a></td><td class="numi">1</td><td>1607803498494</td><td class="numi">119</td></tr>
+<tr class="passedeven"><td rowspan="1">rs.hooloovoo.test.GetAuditTest</td><td><a href="#m12"><b>aRegularCall</b>  </a></td><td class="numi">1</td><td>1607803498495</td><td class="numi">381</td></tr>
+<tr class="passedodd"><td rowspan="6">rs.hooloovoo.test.CreateUserTest</td><td><a href="#m13"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m14"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m15"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m16"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m17"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m18"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr>
+<tr class="passedeven"><td rowspan="1">rs.hooloovoo.test.GetUserTest</td><td><a href="#m19"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803498643</td><td class="numi">310</td></tr>
+<tr class="passedodd"><td rowspan="7">rs.hooloovoo.test.CreateUserTest</td><td><a href="#m20"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m21"><b>aRegularCallSpecific</b>  </a></td><td class="numi">7</td><td>1607803498506</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m22"><b>alreadyUsedUsername</b>  </a></td><td class="numi">1</td><td>1607803498706</td><td class="numi">20</td></tr><tr class="passedodd"><td><a href="#m23"><b>usernameCheck</b>  </a></td><td class="numi">4</td><td>1607803498727</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m24"><b>usernameCheck</b>  </a></td><td class="numi">4</td><td>1607803498727</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m25"><b>usernameCheck</b>  </a></td><td class="numi">4</td><td>1607803498727</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m26"><b>usernameCheck</b>  </a></td><td class="numi">4</td><td>1607803498727</td><td class="numi">45</td></tr>
+<tr class="passedeven"><td rowspan="1">rs.hooloovoo.test.GetUserTest</td><td><a href="#m27"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803498643</td><td class="numi">310</td></tr>
+<tr class="passedodd"><td rowspan="1">rs.hooloovoo.test.GetAuditTest</td><td><a href="#m28"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498905</td><td class="numi">244</td></tr>
+<tr class="passedeven"><td rowspan="2">rs.hooloovoo.test.GetUserTest</td><td><a href="#m29"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803498643</td><td class="numi">310</td></tr><tr class="passedeven"><td><a href="#m30"><b>nonExitsingUser</b>  </a></td><td class="numi">1</td><td>1607803498968</td><td class="numi">17</td></tr>
+<tr class="passedodd"><td rowspan="2">rs.hooloovoo.test.GetAuditTest</td><td><a href="#m31"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498905</td><td class="numi">244</td></tr><tr class="passedodd"><td><a href="#m32"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498905</td><td class="numi">244</td></tr>
+<tr class="passedeven"><td rowspan="3">rs.hooloovoo.test.GetUserTest</td><td><a href="#m33"><b>usernameSpec</b>  </a></td><td class="numi">1</td><td>1607803499035</td><td class="numi">20</td></tr><tr class="passedeven"><td><a href="#m34"><b>usernameToLowcase</b>  </a></td><td class="numi">1</td><td>1607803499070</td><td class="numi">11</td></tr><tr class="passedeven"><td><a href="#m35"><b>usernameToUPcase</b>  </a></td><td class="numi">1</td><td>1607803499105</td><td class="numi">33</td></tr>
+<tr class="passedodd"><td rowspan="2">rs.hooloovoo.test.GetAuditTest</td><td><a href="#m36"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498905</td><td class="numi">244</td></tr><tr class="passedodd"><td><a href="#m37"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499174</td><td class="numi">88</td></tr>
+<tr class="passedeven"><td rowspan="1">rs.hooloovoo.test.CreateAuditTest</td><td><a href="#m38"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498494</td><td class="numi">852</td></tr>
+<tr class="passedodd"><td rowspan="2">rs.hooloovoo.test.GetAuditTest</td><td><a href="#m39"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499174</td><td class="numi">88</td></tr><tr class="passedodd"><td><a href="#m40"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499174</td><td class="numi">88</td></tr>
+<tr class="passedeven"><td rowspan="3">rs.hooloovoo.test.CreateAuditTest</td><td><a href="#m41"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498494</td><td class="numi">852</td></tr><tr class="passedeven"><td><a href="#m42"><b>aRegularCallAllActions</b>  </a></td><td class="numi">4</td><td>1607803498494</td><td class="numi">852</td></tr><tr class="passedeven"><td><a href="#m43"><b>allActionsOneUser</b>  </a></td><td class="numi">1</td><td>1607803499364</td><td class="numi">119</td></tr>
+<tr class="passedodd"><td rowspan="3">rs.hooloovoo.test.LoginTest</td><td><a href="#m44"><b>aRegularCall</b>  </a></td><td class="numi">1</td><td>1607803499370</td><td class="numi">8</td></tr><tr class="passedodd"><td><a href="#m45"><b>allMethods</b>  </a></td><td class="numi">2</td><td>1607803499410</td><td class="numi">29</td></tr><tr class="passedodd"><td><a href="#m46"><b>allMethods</b>  </a></td><td class="numi">2</td><td>1607803499410</td><td class="numi">29</td></tr>
+<tr class="passedeven"><td rowspan="4">rs.hooloovoo.test.CreateAuditTest</td><td><a href="#m47"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499495</td><td class="numi">50</td></tr><tr class="passedeven"><td><a href="#m48"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499495</td><td class="numi">50</td></tr><tr class="passedeven"><td><a href="#m49"><b>allMethods</b>  </a></td><td class="numi">3</td><td>1607803499495</td><td class="numi">50</td></tr><tr class="passedeven"><td><a href="#m50"><b>sameActionsOneUser</b>  </a></td><td class="numi">1</td><td>1607803499558</td><td class="numi">119</td></tr>
+</table>
+<h1>simpleTest</h1>
+<h2 id="m1">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>VELIKA_SLOVA</td>
+<td>201</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>Bad response code:  expected:&lt;201&gt; but was:&lt;400&gt;</p>
+org.junit.Assert.fail(Assert.java:88)
+<br/>at org.junit.Assert.failNotEquals(Assert.java:834)
+<br/>at org.junit.Assert.assertEquals(Assert.java:645)
+<br/>at rs.hooloovoo.test.CreateUserTest.aRegularCallSpecific(CreateUserTest.java:92)
+<br/>14 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">rs.hooloovoo.test.CreateUserTest:aRegularCall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>mix_SLoVA</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">rs.hooloovoo.test.GetUserTest:nonExitsingUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">rs.hooloovoo.test.GetUserTest:usernameToUPcase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">rs.hooloovoo.test.GetAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>POST</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">rs.hooloovoo.test.GetAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">rs.hooloovoo.test.CreateAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">rs.hooloovoo.test.GetUserTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>POST</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">rs.hooloovoo.test.CreateAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>POST</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">rs.hooloovoo.test.LoginTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>PUT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">rs.hooloovoo.test.CreateAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>LOGIN</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">rs.hooloovoo.test.LoginTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">rs.hooloovoo.test.LoginTest:aRegularCall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">rs.hooloovoo.test.GetUserTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">rs.hooloovoo.test.GetAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>SAVE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">rs.hooloovoo.test.GetAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>LOGIN</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">rs.hooloovoo.test.CreateAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>SAVE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">rs.hooloovoo.test.GetAuditTest:aRegularCall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">rs.hooloovoo.test.CreateAuditTest:allActionsOneUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>mix_#@!#%$_555-333</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>123456</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>*?*?*?*?</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">rs.hooloovoo.test.GetUserTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>PUT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">rs.hooloovoo.test.CreateAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">rs.hooloovoo.test.CreateAuditTest:sameActionsOneUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">rs.hooloovoo.test.CreateUserTest:usernameCheck</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td></td>
+<td>400</td>
+<td>Username must not be longer that 50 characters or shorter than 6 characters.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">rs.hooloovoo.test.CreateUserTest:usernameCheck</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>b326</td>
+<td>400</td>
+<td>Username must not be longer that 50 characters or shorter than 6 characters.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">rs.hooloovoo.test.CreateUserTest:usernameCheck</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>FyWazwfCrWSr4L1Xa45eC7Rf27ToUMyMfQRMpdDHxFZNT4TPpT4</td>
+<td>400</td>
+<td>Username must not be longer that 50 characters or shorter than 6 characters.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>mala_slova</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>8686iF</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">rs.hooloovoo.test.GetUserTest:usernameToLowcase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">rs.hooloovoo.test.GetAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>PUT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">rs.hooloovoo.test.CreateAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>UPDATE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">rs.hooloovoo.test.GetAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>UPDATE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">rs.hooloovoo.test.CreateUserTest:aRegularCallSpecific</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>!@#$%^&amp;</td>
+<td>201</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">rs.hooloovoo.test.CreateAuditTest:allMethods</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>GET</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">rs.hooloovoo.test.GetUserTest:usernameSpec</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>!@#$$$**--</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">rs.hooloovoo.test.CreateUserTest:usernameCheck</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>!@#$</td>
+<td>400</td>
+<td>Username must not be longer that 50 characters or shorter than 6 characters.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">rs.hooloovoo.test.GetAuditTest:aRegularCallAllActions</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>DELETE</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">rs.hooloovoo.test.CreateUserTest:alreadyUsedUsername</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">rs.hooloovoo.test.GetUserTest:aRegularCall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
